@@ -1,0 +1,150 @@
+current img:img1 scacle:4
+select data:  HSV Select model: Isolation Forest
+Average precision-recall score: 0.89 cost time: 0.79
+=======================================================
+select data:  HSV Select model: Local Outlier Factor
+Average precision-recall score: 0.69 cost time: 8.33
+=======================================================
+select data:  HS Select model: Isolation Forest
+Average precision-recall score: 0.32 cost time: 0.87
+=======================================================
+select data:  HS Select model: Local Outlier Factor
+Average precision-recall score: 0.21 cost time: 6.72
+=======================================================
+select data:  YUV Select model: Isolation Forest
+Average precision-recall score: 0.67 cost time: 0.86
+=======================================================
+select data:  YUV Select model: Local Outlier Factor
+Average precision-recall score: 0.67 cost time: 12.71
+=======================================================
+select data:  UV Select model: Isolation Forest
+Average precision-recall score: 0.30 cost time: 0.91
+=======================================================
+select data:  UV Select model: Local Outlier Factor
+Average precision-recall score: 0.04 cost time: 3.59
+=======================================================
+current img:img1 scacle:8
+select data:  HSV Select model: Isolation Forest
+Average precision-recall score: 0.86 cost time: 0.20
+=======================================================
+select data:  HSV Select model: Local Outlier Factor
+Average precision-recall score: 0.71 cost time: 2.11
+=======================================================
+select data:  HS Select model: Isolation Forest
+Average precision-recall score: 0.34 cost time: 0.21
+=======================================================
+select data:  HS Select model: Local Outlier Factor
+Average precision-recall score: 0.21 cost time: 1.71
+=======================================================
+select data:  YUV Select model: Isolation Forest
+Average precision-recall score: 0.68 cost time: 0.21
+=======================================================
+select data:  YUV Select model: Local Outlier Factor
+Average precision-recall score: 0.58 cost time: 3.26
+=======================================================
+select data:  UV Select model: Isolation Forest
+Average precision-recall score: 0.26 cost time: 0.21
+=======================================================
+select data:  UV Select model: Local Outlier Factor
+Average precision-recall score: 0.03 cost time: 0.91
+=======================================================
+current img:img1 scacle:16
+select data:  HSV Select model: Isolation Forest
+Average precision-recall score: 0.75 cost time: 0.04
+=======================================================
+select data:  HSV Select model: Local Outlier Factor
+Average precision-recall score: 0.73 cost time: 0.54
+=======================================================
+select data:  HS Select model: Isolation Forest
+Average precision-recall score: 0.39 cost time: 0.04
+=======================================================
+select data:  HS Select model: Local Outlier Factor
+Average precision-recall score: 0.22 cost time: 0.43
+=======================================================
+select data:  YUV Select model: Isolation Forest
+Average precision-recall score: 0.66 cost time: 0.04
+=======================================================
+select data:  YUV Select model: Local Outlier Factor
+Average precision-recall score: 0.57 cost time: 0.86
+=======================================================
+select data:  UV Select model: Isolation Forest
+Average precision-recall score: 0.26 cost time: 0.05
+=======================================================
+select data:  UV Select model: Local Outlier Factor
+Average precision-recall score: 0.04 cost time: 0.23
+=======================================================
+current img:img2 scacle:4
+select data:  HSV Select model: Isolation Forest
+Average precision-recall score: 0.80 cost time: 0.92
+=======================================================
+select data:  HSV Select model: Local Outlier Factor
+Average precision-recall score: 0.65 cost time: 9.36
+=======================================================
+select data:  HS Select model: Isolation Forest
+Average precision-recall score: 0.20 cost time: 0.99
+=======================================================
+select data:  HS Select model: Local Outlier Factor
+Average precision-recall score: 0.05 cost time: 7.37
+=======================================================
+select data:  YUV Select model: Isolation Forest
+Average precision-recall score: 0.46 cost time: 1.04
+=======================================================
+select data:  YUV Select model: Local Outlier Factor
+Average precision-recall score: 0.67 cost time: 14.60
+=======================================================
+select data:  UV Select model: Isolation Forest
+Average precision-recall score: 0.21 cost time: 0.98
+=======================================================
+select data:  UV Select model: Local Outlier Factor
+Average precision-recall score: 0.08 cost time: 3.98
+=======================================================
+current img:img2 scacle:8
+select data:  HSV Select model: Isolation Forest
+Average precision-recall score: 0.76 cost time: 0.23
+=======================================================
+select data:  HSV Select model: Local Outlier Factor
+Average precision-recall score: 0.58 cost time: 2.38
+=======================================================
+select data:  HS Select model: Isolation Forest
+Average precision-recall score: 0.22 cost time: 0.25
+=======================================================
+select data:  HS Select model: Local Outlier Factor
+Average precision-recall score: 0.05 cost time: 1.87
+=======================================================
+select data:  YUV Select model: Isolation Forest
+Average precision-recall score: 0.49 cost time: 0.25
+=======================================================
+select data:  YUV Select model: Local Outlier Factor
+Average precision-recall score: 0.65 cost time: 3.70
+=======================================================
+select data:  UV Select model: Isolation Forest
+Average precision-recall score: 0.24 cost time: 0.25
+=======================================================
+select data:  UV Select model: Local Outlier Factor
+Average precision-recall score: 0.08 cost time: 1.02
+=======================================================
+current img:img2 scacle:16
+select data:  HSV Select model: Isolation Forest
+Average precision-recall score: 0.61 cost time: 0.05
+=======================================================
+select data:  HSV Select model: Local Outlier Factor
+Average precision-recall score: 0.36 cost time: 0.61
+=======================================================
+select data:  HS Select model: Isolation Forest
+Average precision-recall score: 0.26 cost time: 0.06
+=======================================================
+select data:  HS Select model: Local Outlier Factor
+Average precision-recall score: 0.06 cost time: 0.59
+=======================================================
+select data:  YUV Select model: Isolation Forest
+Average precision-recall score: 0.56 cost time: 0.05
+=======================================================
+select data:  YUV Select model: Local Outlier Factor
+Average precision-recall score: 0.58 cost time: 0.94
+=======================================================
+select data:  UV Select model: Isolation Forest
+Average precision-recall score: 0.29 cost time: 0.05
+=======================================================
+select data:  UV Select model: Local Outlier Factor
+Average precision-recall score: 0.11 cost time: 0.26
+=======================================================
