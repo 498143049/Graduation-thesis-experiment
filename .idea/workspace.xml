@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ff8e12c-b525-462b-a70c-1fab0b05a0b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment5.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location_digital.py" beforeDir="false" afterPath="$PROJECT_DIR$/location_digital.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/point_location.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_location_mulitplyscale.py" beforeDir="false" afterPath="$PROJECT_DIR$/point_location_mulitplyscale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setpone.py" beforeDir="false" afterPath="$PROJECT_DIR$/setpone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_svm.py" afterDir="false" />
-    </list>
+    <list default="true" id="0ff8e12c-b525-462b-a70c-1fab0b05a0b8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -447,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527469928120</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change lib position">
+      <created>1527470383579</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527470383579</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -464,13 +446,13 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49932975" weight="0.32952926" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" visible="true" weight="0.32952926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
@@ -524,7 +506,8 @@
     <MESSAGE value="add Timer module" />
     <MESSAGE value="add new location" />
     <MESSAGE value="add new file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new file" />
+    <MESSAGE value="change lib position" />
+    <option name="LAST_COMMIT_MESSAGE" value="change lib position" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
