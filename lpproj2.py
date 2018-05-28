@@ -37,8 +37,6 @@ class LocalityPreservingProjection2(BaseEstimator, TransformerMixin):
     def __init__(self, n_components=2, n_neighbors=5,
                  weight='adjacency', weight_width=1.0,
                  neighbors_algorithm='auto'):
-        # TODO: allow radius neighbors
-        # TODO: allow for precomputed weights
         self.n_components = n_components
         self.n_neighbors = n_neighbors
         self.weight = weight
@@ -69,7 +67,6 @@ class LocalityPreservingProjection2(BaseEstimator, TransformerMixin):
         P : ndarray, (n_features, self.n_components)
             The matrix encoding the locality preserving projection
         """
-        # TODO: check W input; handle sparse case
         X = check_array(X)
 
         D = np.diag(W.sum(1))
@@ -96,7 +93,6 @@ class LocalityPreservingProjection2(BaseEstimator, TransformerMixin):
             raise ValueError("Unrecognized Weight")
 
         # symmetrize the matrix
-        # TODO: make this more efficient & keep sparse output
         W = W.toarray()
         W = np.maximum(W, W.T)
         return W
