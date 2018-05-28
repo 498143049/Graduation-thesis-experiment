@@ -2,100 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff8e12c-b525-462b-a70c-1fab0b05a0b8" name="Default" comment="add new location">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/11.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/14.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/c1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/experiment9/template1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/digital_location.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/digital_location.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/1107b38c-0c13-11e8-a032-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/1109aff4-0c13-11e8-8ad2-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/110bac52-0c13-11e8-b174-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/169b8a6e-0bf4-11e8-bed3-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/16a20a9a-0bf4-11e8-b3c9-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/16a3cce8-0bf4-11e8-bfd0-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/3c838f00-0c13-11e8-a75a-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/3c85da1a-0c13-11e8-9f05-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/3c87ed26-0c13-11e8-ac37-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/4481200c-0c13-11e8-98b8-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/4482f554-0c13-11e8-99f5-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/4484a380-0c13-11e8-b3b2-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/490a8868-0c13-11e8-a222-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/490c5dac-0c13-11e8-9ffb-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/490e32e6-0c13-11e8-bb0c-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/4fab4db8-0bf4-11e8-b7cc-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/4fad4ac6-0bf4-11e8-a4de-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/4faf0d10-0bf4-11e8-a065-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/5f83bf1e-0c13-11e8-aa92-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/5f8b0700-0c13-11e8-bcca-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/5f8d2a78-0c13-11e8-8428-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/61f4fd2e-0bfb-11e8-9adf-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/61f86ddc-0bfb-11e8-9484-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/61fb0706-0bfb-11e8-8e9b-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/741fe266-0c13-11e8-b37f-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/742205ee-0c13-11e8-bb8f-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/74242954-0c13-11e8-ab9f-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/865faac2-0c0f-11e8-9cf4-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/86637d0a-0c0f-11e8-9efc-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/8666641e-0c0f-11e8-b939-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/8b6048c0-0c13-11e8-811a-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/8b621e1e-0c13-11e8-867a-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/8b648fc8-0c13-11e8-b9fe-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/9ba193b0-0c13-11e8-9aef-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/9ba341fa-0c13-11e8-8247-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/9ba50402-0c13-11e8-b376-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/a3382352-0c13-11e8-b399-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/a33a46d4-0c13-11e8-95fa-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/a33c4336-0c13-11e8-99a9-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/b74ce28a-0c0f-11e8-b2ca-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/b74e90a8-0c0f-11e8-8a4d-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/b7501a7a-0c0f-11e8-b85e-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/bbd7489a-0c0f-11e8-87b0-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/bbd90ad2-0c0f-11e8-89d6-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/bbdb0740-0c0f-11e8-947b-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/c8f269ec-0c5d-11e8-a49e-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/c8f61466-0c5d-11e8-8062-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/c8f8d458-0c5d-11e8-85a7-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/dd051750-0c12-11e8-9d48-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/dd07041a-0c12-11e8-8f6a-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/dd0e3212-0c12-11e8-b0d3-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/df246500-0c5d-11e8-9264-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/df266154-0c5d-11e8-a3cb-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/df2d1d5c-0c5d-11e8-9d9c-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/eb6e1712-0c12-11e8-902a-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/eb6fc538-0c12-11e8-ba32-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/eb71c19c-0c12-11e8-82e7-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/f37b1aca-0c12-11e8-a7d6-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/f37d654c-0c12-11e8-8139-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/temp_data/f37f4f24-0c12-11e8-8a85-40b89a76d13c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lpproj2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lpproj2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment10/result.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment10/result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment11/result.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment11/result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment16/result.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment16/result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment17/LSD_filter_result_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment17/LSD_filter_result_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment17/LSD_result.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment17/LSD_result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment18/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment18/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment18/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment18/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/experiment8/result.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/experiment8/result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/train_svm/result.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/train_svm/result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_location_mulitplyscale.py" beforeDir="false" afterPath="$PROJECT_DIR$/point_location_mulitplyscale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setpone.py" beforeDir="false" afterPath="$PROJECT_DIR$/setpone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_svm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -179,77 +86,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment_14.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment_14.py">
+      <file leaf-file-name="point_location.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/point_location.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="394">
-              <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment_15.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment_15.py">
+      <file leaf-file-name="test3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lpproj2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lpproj2.py">
+      <file leaf-file-name="train_svm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train_svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/logging/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="337" selection-start-line="337" selection-end-line="337" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multiply_detection_2018_05_28_08_34_06.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/multiply_detection_2018_05_28_08_34_06.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="16" column="95" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_18.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment_18.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multiply_detection_2018_05_27_11_14_44.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/multiply_detection_2018_05_27_11_14_44.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="-156">
+              <caret line="89" column="61" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -336,7 +195,6 @@
         <option value="$PROJECT_DIR$/experiment_2.py" />
         <option value="$PROJECT_DIR$/experiment_3.py" />
         <option value="$PROJECT_DIR$/test3.py" />
-        <option value="$PROJECT_DIR$/train_svm.py" />
         <option value="$PROJECT_DIR$/lark.py" />
         <option value="$PROJECT_DIR$/../pythonMylib/dbtool.py" />
         <option value="$PROJECT_DIR$/test_2.py" />
@@ -357,6 +215,7 @@
         <option value="$PROJECT_DIR$/test4.py" />
         <option value="$PROJECT_DIR$/lpproj2.py" />
         <option value="$PROJECT_DIR$/point_location_mulitplyscale.py" />
+        <option value="$PROJECT_DIR$/train_svm.py" />
       </list>
     </option>
   </component>
@@ -563,7 +422,35 @@
       <option name="project" value="LOCAL" />
       <updated>1527468707582</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete TODO">
+      <created>1527469523046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527469523046</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add new file">
+      <created>1527469564580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527469564580</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add new location">
+      <created>1527469591717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527469591717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Timer module">
+      <created>1527469658898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527469658898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -577,18 +464,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952926" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32952926" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -635,8 +524,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete TODO" />
+    <MESSAGE value="add new file" />
     <MESSAGE value="add new location" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new location" />
+    <MESSAGE value="add Timer module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Timer module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,7 +545,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/train_svm.py</url>
-          <line>99</line>
+          <line>98</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -673,13 +565,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/point_location_mulitplyscale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="99" column="45" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pythonMylib/dbtool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3477">
@@ -781,13 +666,6 @@
         <state relative-caret-position="-147" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/location_digital.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -838,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/point_location.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="93" column="40" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment_17.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -865,9 +736,6 @@
           <caret line="24" column="42" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test3.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -930,6 +798,23 @@
     <entry file="file://$PROJECT_DIR$/aaa.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lpproj2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/point_location_mulitplyscale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -937,6 +822,13 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -957,27 +849,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_15.py">
+    <entry file="file://$PROJECT_DIR$/xxx.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point_location.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_18.py">
+    <entry file="file://$PROJECT_DIR$/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lpproj2.py">
+    <entry file="file://$PROJECT_DIR$/train_svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+        <state relative-caret-position="-156">
+          <caret line="89" column="61" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="61" />
         </state>
       </provider>
     </entry>
