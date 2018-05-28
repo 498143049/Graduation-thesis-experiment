@@ -4,7 +4,7 @@ import numpy as np
 import lark
 import math
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 from lpproj import LocalityPreservingProjection
 from sklearn.decomposition import PCA
@@ -21,7 +21,6 @@ set_width_size = 547/3
 set_width_size_1 = 123/3
 reducer = PCA(n_components=max_components)
 ########### 配置的参数 #############################
-
 ##################配置logging####################################
 logger = logging.getLogger("multiply_detection")
 formatter = logging.Formatter('%(asctime)s %(levelname)-8s: %(message)s')

@@ -4,7 +4,7 @@ from skimage.io import imread
 from skimage import data_dir
 from skimage.transform import radon, rescale
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 import cv2
 import os

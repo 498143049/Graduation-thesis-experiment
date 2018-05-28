@@ -8,7 +8,7 @@ from matplotlib import rc
 import lark
 import math
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 rc('font', **{'family': 'sans-serif', 'sans-serif': ['Arial'], 'size': 8})
 params = {'text.usetex': False, 'mathtext.fontset': 'stixsans'}

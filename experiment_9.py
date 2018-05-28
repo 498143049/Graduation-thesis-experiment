@@ -8,7 +8,7 @@ from matplotlib import rc
 import lark
 import math
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 #  三种降维方法
 #  实验失败。。。。

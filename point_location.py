@@ -4,7 +4,7 @@ import numpy as np
 import lark
 import math
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 from sklearn.decomposition import PCA
 

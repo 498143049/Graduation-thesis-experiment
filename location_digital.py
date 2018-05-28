@@ -1,5 +1,5 @@
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 import config
 #加载通用模块

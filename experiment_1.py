@@ -1,7 +1,7 @@
 
 ## d读取数据验证 RGB hsv YIQ空间的稳定
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 import cv2
 import matplotlib

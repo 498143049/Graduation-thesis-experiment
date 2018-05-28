@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ff8e12c-b525-462b-a70c-1fab0b05a0b8" name="Default" comment="add new location">
+    <list default="true" id="0ff8e12c-b525-462b-a70c-1fab0b05a0b8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment5.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location_digital.py" beforeDir="false" afterPath="$PROJECT_DIR$/location_digital.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/point_location.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_location_mulitplyscale.py" beforeDir="false" afterPath="$PROJECT_DIR$/point_location_mulitplyscale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setpone.py" beforeDir="false" afterPath="$PROJECT_DIR$/setpone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_svm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +41,7 @@
     <SUITE FILE_PATH="coverage/digital_location$point_location.coverage" NAME="point_location Coverage Results" MODIFIED="1526740054139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_4.coverage" NAME="experiment_4 Coverage Results" MODIFIED="1517969547714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$test_cv.coverage" NAME="test-cv Coverage Results" MODIFIED="1516582845398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/digital_location$experiment_1.coverage" NAME="experiment_1 Coverage Results" MODIFIED="1519188923566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/digital_location$experiment_1.coverage" NAME="experiment_1 Coverage Results" MODIFIED="1527470028783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1527390483242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_9.coverage" NAME="experiment_9 Coverage Results" MODIFIED="1526693764795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$train_svm.coverage" NAME="train_svm Coverage Results" MODIFIED="1525788698737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -27,7 +50,7 @@
     <SUITE FILE_PATH="coverage/digital_location$experiment_6.coverage" NAME="experiment_6 Coverage Results" MODIFIED="1526706998457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$setpone.coverage" NAME="setpone Coverage Results" MODIFIED="1526706310241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_3.coverage" NAME="experiment_3 Coverage Results" MODIFIED="1517912831793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/digital_location$point_location_mulitplyscale.coverage" NAME="point_location_mulitplyscale Coverage Results" MODIFIED="1527468184708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/digital_location$point_location_mulitplyscale.coverage" NAME="point_location_mulitplyscale Coverage Results" MODIFIED="1527470048017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1521088865693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_13.coverage" NAME="experiment_13 Coverage Results" MODIFIED="1519134548371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_2.coverage" NAME="experiment_2 Coverage Results" MODIFIED="1519190982774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -39,7 +62,7 @@
     <SUITE FILE_PATH="coverage/digital_location$digital.coverage" NAME="digital Coverage Results" MODIFIED="1517659556081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$test_urdf.coverage" NAME="test_urdf Coverage Results" MODIFIED="1527126925971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_14.coverage" NAME="experiment_14 Coverage Results" MODIFIED="1519124726507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/digital_location$experiment5.coverage" NAME="experiment5 Coverage Results" MODIFIED="1517987016609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/digital_location$experiment5.coverage" NAME="experiment5 Coverage Results" MODIFIED="1527469995734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_11.coverage" NAME="experiment_11 Coverage Results" MODIFIED="1526236670034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$testfile.coverage" NAME="digital Coverage Results" MODIFIED="1517032275413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_location$experiment_16.coverage" NAME="experiment_16 Coverage Results" MODIFIED="1526700133405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -62,53 +85,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="point_location_mulitplyscale.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/point_location_mulitplyscale.py">
+      <file leaf-file-name="experiment_12.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiment_12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment_11.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment_11.py">
+      <file leaf-file-name="experiment_13.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experiment_13.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="point_location.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/point_location.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train_svm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train_svm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="89" column="61" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="61" />
+            <state relative-caret-position="694">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -124,8 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>classifiers</find>
-      <find>dbtool</find>
       <find>_make_lark</find>
       <find>BGR2RG</find>
       <find>G</find>
@@ -154,7 +142,13 @@
       <find>deal_fun</find>
       <find>deal</find>
       <find>get_feature_SIFT</find>
+      <find>sys.path.append('''.\lib''')</find>
+      <find>sys.path.append('''F:\python_learning\pythonMylib''')</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>sys.path.append('''.\lib''')</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -178,7 +172,6 @@
         <option value="$PROJECT_DIR$/convert_to_C++.py" />
         <option value="$PROJECT_DIR$/convert_to_C++.ipynb" />
         <option value="$PROJECT_DIR$/experiment_3_3.py" />
-        <option value="$PROJECT_DIR$/experiment5.py" />
         <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/location_digital.py" />
         <option value="$PROJECT_DIR$/experiment_4.py" />
@@ -191,7 +184,6 @@
         <option value="$PROJECT_DIR$/experiment_12.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/experiment_13.py" />
-        <option value="$PROJECT_DIR$/experiment_1.py" />
         <option value="$PROJECT_DIR$/experiment_2.py" />
         <option value="$PROJECT_DIR$/experiment_3.py" />
         <option value="$PROJECT_DIR$/test3.py" />
@@ -214,8 +206,10 @@
         <option value="$PROJECT_DIR$/test_urdf.py" />
         <option value="$PROJECT_DIR$/test4.py" />
         <option value="$PROJECT_DIR$/lpproj2.py" />
-        <option value="$PROJECT_DIR$/point_location_mulitplyscale.py" />
         <option value="$PROJECT_DIR$/train_svm.py" />
+        <option value="$PROJECT_DIR$/experiment5.py" />
+        <option value="$PROJECT_DIR$/experiment_1.py" />
+        <option value="$PROJECT_DIR$/point_location_mulitplyscale.py" />
       </list>
     </option>
   </component>
@@ -247,10 +241,6 @@
               <item name="digital_location" type="b2602c69:ProjectViewProjectNode" />
               <item name="digital_location" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="digital_location" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,19 +254,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python_learning\digital_location\lib" />
+      <recent name="F:\python_learning\digital_location" />
+      <recent name="F:\python_learning\digital_location\data\experiment9" />
+      <recent name="F:\python_learning\digital_location\data\experiment13" />
+      <recent name="F:\python_learning\digital_location\data\experiment15" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\python_learning\digital_location" />
       <recent name="F:\python_learning\digital_location\data\test_data" />
       <recent name="F:\python_learning\digital_location\data" />
       <recent name="F:\python_learning\digital_location\data\experiment5" />
       <recent name="F:\python_learning\digital_location\data\experiment1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python_learning\digital_location" />
-      <recent name="F:\python_learning\digital_location\data\experiment9" />
-      <recent name="F:\python_learning\digital_location\data\experiment13" />
-      <recent name="F:\python_learning\digital_location\data\experiment15" />
-      <recent name="F:\python_learning\digital_location\data\experiment14" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,7 +282,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.point_location_mulitplyscale">
-    <configuration name="experiment_15" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="experiment5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="digital_location" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,13 +295,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment_15.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="experiment_17" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="experiment_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="digital_location" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,7 +314,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment_17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,19 +378,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.experiment_15" />
-      <item itemvalue="Python.experiment_17" />
       <item itemvalue="Python.test_urdf" />
       <item itemvalue="Python.test4" />
       <item itemvalue="Python.point_location_mulitplyscale" />
+      <item itemvalue="Python.experiment5" />
+      <item itemvalue="Python.experiment_1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.point_location_mulitplyscale" />
+        <item itemvalue="Python.experiment_1" />
+        <item itemvalue="Python.experiment5" />
         <item itemvalue="Python.test4" />
         <item itemvalue="Python.test_urdf" />
-        <item itemvalue="Python.experiment_17" />
-        <item itemvalue="Python.experiment_15" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527469658898</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add new file">
+      <created>1527469928120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527469928120</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -464,7 +461,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Messages" />
@@ -477,8 +473,8 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32952926" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
@@ -525,10 +521,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete TODO" />
-    <MESSAGE value="add new file" />
-    <MESSAGE value="add new location" />
     <MESSAGE value="add Timer module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Timer module" />
+    <MESSAGE value="add new location" />
+    <MESSAGE value="add new file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -567,28 +563,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../pythonMylib/dbtool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3477">
-          <caret line="198" column="41" lean-forward="true" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1397159894/cv2/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/point_location_mulitplyscale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pythonMylib/dbtool.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2641">
           <caret line="154" column="63" selection-start-line="154" selection-start-column="49" selection-end-line="154" selection-end-column="63" />
         </state>
@@ -602,13 +576,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/metrics/ranking.py" />
-    <entry file="file://$PROJECT_DIR$/experiment5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2127">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svm_with_chat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -685,20 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -815,16 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/point_location_mulitplyscale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment_15.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -859,6 +802,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/train_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="89" column="61" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -866,10 +816,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_svm.py">
+    <entry file="file://$PROJECT_DIR$/lib/dbtool.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point_location_mulitplyscale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="89" column="61" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="61" />
+        <state relative-caret-position="550">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
         </state>
       </provider>
     </entry>

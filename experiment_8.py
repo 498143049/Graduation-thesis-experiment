@@ -1,5 +1,5 @@
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 import cv2
 import os

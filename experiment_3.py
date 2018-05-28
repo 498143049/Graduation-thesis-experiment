@@ -1,6 +1,6 @@
 ## 验证各种算法对闭合面的闭合情况，总共有2种算法
 import sys
-sys.path.append('''F:\python_learning\pythonMylib''')
+sys.path.append('''.\lib''')
 import dbtool
 import cv2
 import os
