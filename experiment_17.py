@@ -34,7 +34,7 @@ if __name__ =='__main__':
     if not os.path.exists(pic_dir):
         os.makedirs(pic_dir)
     # 读取图片
-    img = cv2.imread(os.path.join(data_dir,'b.jpg'))
+    img = cv2.imread(os.path.join(data_dir,'g.jpg'))
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     height, width = gray.shape
     select_h = int(height*0.18)
@@ -46,13 +46,14 @@ if __name__ =='__main__':
     drawn_img = lsd.drawSegments(img_roi.copy(), lines)
     cv2.imwrite(os.path.join(pic_dir,"LSD_result.png"), drawn_img)
     ans = calc_distance(lines)
-    newlines = lines[ans>150]
+    newlines = lines[ans>100]
     drawn_img_1 = lsd.drawSegments(img_roi.copy(), newlines)
     new_list = newlines.reshape(-1,4).tolist();
     results = map(lambda x: point_disttance(int(drawn_img_1.shape[1]/2), int(drawn_img_1.shape[0]/2),x),new_list)
     newlines =  newlines[np.array(list(results))<30]
     # cv2.circle(drawn_img_1, (, 20, (55, 255, 155), -1)  # 修改最后一个参数
     drawn_img_2 = lsd.drawSegments(img_roi.copy(), newlines)
+    cv2.imwrite(os.path.join(pic_dir, "LSD_filter_result_1.png"), drawn_img_1)
     cv2.imwrite(os.path.join(pic_dir, "LSD_filter_result_3.png"), drawn_img_2)
-    cv2.imshow("xxxx",drawn_img_2)
+    # cv2.imshow("xxxx",drawn_img_2)
     cv2.waitKey()

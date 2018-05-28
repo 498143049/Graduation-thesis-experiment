@@ -56,7 +56,7 @@ def deal_fun(HSV_SRC):
 
 if __name__ == "__main__":
     #  加载一个测试样本
-    imgsrc = cv2.imread(os.path.join(test_dir,"op2.jpg"))
+    imgsrc = cv2.imread(os.path.join(test_dir,"k.jpg"))
     # 策略修改大小
     imgsrc = dbtool.resize(imgsrc, 600)
     HSV_src = cv2.cvtColor(imgsrc, cv2.COLOR_BGR2HSV)
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     im2, contours, hierarchy = cv2.findContours(clf_result, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     box = [cv2.boundingRect(item) for item in contours]
     print(imgsrc.shape[0], imgsrc.shape[1])
-    box = filter(filter_area(imgsrc.shape[0],imgsrc.shape[1]), box)
+    # box = filter(filter_area(imgsrc.shape[0],imgsrc.shape[1]), box)
     #
     for item in box:
         imgsrc = cv2.rectangle(imgsrc, (item[0], item[1]), (item[0] + item[2], item[1] + item[3]), (0, 255, 0), 2)

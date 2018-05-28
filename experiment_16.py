@@ -22,7 +22,7 @@ if __name__ =='__main__':
     if not os.path.exists(pic_dir):
         os.makedirs(pic_dir)
     # 读取图片
-    img = cv2.imread(os.path.join(data_dir,'a.jpg'))
+    img = cv2.imread(os.path.join(data_dir, 'c.png'))
     height, width, depth = img.shape
     select_h = int(height*0.18)
     select_w = int(width*0.18)

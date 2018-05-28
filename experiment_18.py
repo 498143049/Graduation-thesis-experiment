@@ -37,9 +37,9 @@ def angle(martix):
 lsd = cv2.createLineSegmentDetector(0)
 def Getfilter_line(img):
     height, width = img.shape
-    # select_h = int(height * 0.18)
-    # select_w = int(width * 0.18)
-    # img_gary_roi = gray[select_h:height - select_h, select_w: width - select_w]
+    select_h = int(height * 0.18)
+    select_w = int(width * 0.18)
+    img_gary_roi = gray[select_h:height - select_h, select_w: width - select_w]
     lines, width, prec, nfa = lsd.detect(img)
 
     alldistance = calc_distance(lines)
@@ -63,7 +63,7 @@ def Getfilter_line(img):
 
 def calc_k(length, d, lengthsum, dsum):
     return (length/lengthsum)*0.9 + (d/dsum)*0.1
-
+import time
 if __name__ =='__main__':
     if not os.path.exists(model_dir):
         os.makedirs(model_dir)
@@ -73,9 +73,14 @@ if __name__ =='__main__':
     for i,item in enumerate(items):
         img = cv2.imread(os.path.join(data_dir, item))
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        start = time.clock()
         result, newlines = Getfilter_line(gray)
+        end = time.clock()
         font = cv2.FONT_HERSHEY_SIMPLEX
+
         img = lsd.drawSegments(img, newlines)
+
+        print(end-start,'|||')
         cv2.putText(img, str(result)[0:7], (350, 300), font, 1, (0, 0, 255), 1, cv2.LINE_AA)
         cv2.line(img, (0, int(gray.shape[0]/2)), (gray.shape[0], int(gray.shape[1]/2)), (0,255,255), 2)
         cv2.imwrite(os.path.join(pic_dir, str(i)+'.jpg'), img)

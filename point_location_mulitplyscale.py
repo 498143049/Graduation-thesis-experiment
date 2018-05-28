@@ -85,7 +85,6 @@ def Get_location_postion(template_source, background_source):
 
     # dis_list_probality_resize = [dbtool.resize(dis_list_probality_item, width=dis_list_probality_item.shape[1]*range_item) for (dis_list_probality_item, range_item) in zip(dis_list_probality, range_sizes)]
     # 找到最大的值所对应的位置，以及所对应的矩形
-    # TODO 列表的长度处理
     apoint = []
     retangle = []
     for item, sizes in zip(dis_list_probality, range_sizes):

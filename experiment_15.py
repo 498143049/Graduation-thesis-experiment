@@ -61,9 +61,13 @@ def kaze_match(im1_path, im2_path):
         outline = np.sum(mask == 0)
         inline  = np.sum(mask == 1)
         print("%s :inline count %d, outline count %d, InLineRate%f cost time%f, MSE:%f"%(feature_name, inline, outline,inline/(inline+outline), elapsed, distance(M, stdvalue)))
+import time
 if __name__ =='__main__':
     if not os.path.exists(model_dir):
         os.makedirs(model_dir)
     if not os.path.exists(pic_dir):
         os.makedirs(pic_dir)
+    start = time.clock()
     kaze_match(os.path.join(data_dir,'a.jpg'),os.path.join(data_dir,'b.jpg'))
+    end = time.clock()
+    print( end-start)
