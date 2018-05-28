@@ -21,14 +21,14 @@ params = {'text.usetex': False, 'mathtext.fontset': 'stixsans'}
 model_dir = 'model/experiment11'
 pic_dir = 'pic/experiment11'
 data_dir = 'data/experiment9'
-data_item = ["6.jpg","7.jpg"]
-zoom_size = 20
-step_size = 1
+data_item = ["a.jpg","2.jpg"]
+zoom_size = 2
+step_size = 2
 win_size = 11
 range_size = 3
 max_components = 2
 t = 0.96
-alpha = 0.995
+alpha = 0.999
 reduce={
     "PCA": PCA(n_components=max_components),
     # "LPP": LocalityPreservingProjection(n_components=max_components),
@@ -71,20 +71,22 @@ if __name__ =='__main__':
         showTarget = cv2.cvtColor(showTarget,cv2.COLOR_BGR2RGB)
         # 获取框 个数
         xnum = math.ceil(dis.shape[0] * dis.shape[1] * (1 - alpha))
-        dis_one = np.reshape(dis, dis.shape[0] * dis.shape[1])
+        xnum = min(xnum, 20)
+        dis_one = np.reshape (dis, dis.shape[0] * dis.shape[1])
+        print(np.max(dis_one))
         result = dis_one.argsort()[-xnum:]
         apoint = []
         for i in result:
             x_i = (i % dis.shape[1]) * step_size
             y_i = int(i / dis.shape[1]) * step_size
             apoint.append([x_i, y_i, x_i + feature_list[0][0].shape[1], y_i + feature_list[0][0].shape[0]])
-            dbtool.drwabox(showTarget, feature_list[0][0], x_i, y_i,(0,255,0),1)
-
-        target = np.array(apoint);
+        target = np.array(apoint)
+        for i in range(0, target.size):
+            dbtool.drwabox(showTarget, apoint[i], (255, 255, 0), 1)
         keep = dbtool.py_cpu_nms(target, 0.4)
 
         for i in keep:
-            dbtool.drwabox(showTarget,  feature_list[0][0], apoint[i][0], apoint[i][1],(255,255,0),3)
+            dbtool.drwabox(showTarget, apoint[i], (255,255,0),1)
 
         plt.figure(figsize=(6.3, 4.7))
         plt.rcParams.update(params)
