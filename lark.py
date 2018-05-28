@@ -126,6 +126,44 @@ def _mydesk(rad):
     h = sgrid / np.sum(sgrid);
     return h
 
+def _mydesk(rad):
+    crad = math.ceil(rad - 0.5)
+    [x, y] = np.meshgrid(np.arange(-crad, crad + 1), np.arange(-crad, crad + 1))
+    maxxy = np.maximum(abs(x), abs(y))
+    minxy = np.minimum(abs(x), abs(y))
+    m1 = ((maxxy + 0.5) ** 2 + (minxy - 0.5) ** 2 > rad * rad) * (minxy - 0.5) \
+         + (((maxxy + 0.5) ** 2 + (minxy - 0.5) ** 2 <= rad * rad) * np.lib.scimath.sqrt(
+        rad * rad - (maxxy + 0.5) ** 2)).astype('float')
+
+    m2 = (rad * rad > (maxxy - 0.5) ** 2 + (minxy + 0.5) ** 2) * (minxy + 0.5) + \
+         ((rad * rad <= (maxxy - 0.5) ** 2 + (minxy + 0.5) ** 2) * \
+          np.lib.scimath.sqrt(rad * rad - (maxxy - 0.5) ** 2))
+
+    sgrid = (rad * rad * (0.5 * (np.arcsin(m2 / rad) - np.arcsin(m1 / rad)) +
+                          0.25 * (np.sin(2 * np.arcsin(m2 / rad)) - np.sin(2 * np.arcsin(m1 / rad)))) -
+             (maxxy - 0.5) * (m2 - m1) + (m1 - minxy + 0.5)) \
+            * ((((rad * rad < (maxxy + 0.5) ** 2 + (minxy + 0.5) ** 2) &
+                 (rad * rad > (maxxy - 0.5) ** 2 + (minxy - 0.5) ** 2)) |
+                ((minxy == 0) & (maxxy - 0.5 < rad) & (maxxy + 0.5 >= rad))))
+    sgrid = sgrid + ((maxxy + 0.5) ** 2 + (minxy + 0.5) ** 2 < rad * rad)
+    sgrid[crad, crad] = min(np.pi * rad * rad, np.pi / 2)
+    if ((crad > 0) and (rad > crad - 0.5) and (rad * rad < (crad - 0.5) * (crad - 0.5) + 0.25)):
+        m1 = np.sqrt(rad * rad - (crad - 0.5) ** 2);
+        m1n = m1 / rad;
+        sg0 = 2 * (rad * rad * (0.5 * np.arcsin(m1n) + 0.25 * np.sin(2 * np.arcsin(m1n))) - m1 * (crad - 0.5));
+        sgrid[2 * crad, crad] = sg0;
+        sgrid[crad, 2 * crad] = sg0;
+        sgrid[crad, 0] = sg0;
+        sgrid[0, crad] = sg0;
+        sgrid[2 * crad - 1, crad] = sgrid[2 * crad - 1, crad] - sg0;
+        sgrid[crad, 2 * crad - 1] = sgrid[crad, 2 * crad - 1] - sg0;
+        sgrid[crad, 1] = sgrid[crad, 1] - sg0;
+        sgrid[1, crad] = sgrid[1, crad] - sg0;
+    # print(sgrid)
+    sgrid[crad, crad] = np.minimum(sgrid[crad, crad], 1);
+    h = sgrid / np.sum(sgrid);
+    return h
+
 def _fspecial(f_type, radius1, arg1=None):
     """
     implements the 'fspecial' command of
@@ -275,6 +313,77 @@ def _make_lark(img, wsize, h, interval, alpha):
     LARK = LARK / np.tile((np.sum(LARK.T, axis=2)).T, (wsize ** 2, 1, 1))
     return ds,unlark,LARK
 
+def _make_larks(img, wsize, h, interval, alpha, setsize):
+    win = int((wsize - 1) / 2)
+    zx, zy = np.gradient(img.T)
+    zxp = np.lib.pad(zx,(win,win), mode='symmetric').T
+    zyp = np.lib.pad(zy, (win,win), mode='symmetric').T
+    M = img.shape[0]
+    N = img.shape[1]
+    C11 = np.zeros((M, N))
+    C12 = np.zeros((M, N))
+    C22 = np.zeros((M, N))
+    tmp = np.zeros((2, 2))
+    G = np.zeros((wsize * wsize, 2))
+    gx = np.zeros((wsize, wsize))
+    gy = np.zeros((wsize, wsize))
+    K = _mydesk(win)
+    K = K / K[win, win]
+    le = np.sum(K[:])
+    kp = [(x,y) for y in range(1,M+1, interval)
+          for x in range(0, N+1, interval)]
+    np.array(kp).reshape(math.sqrt(len(kp)))
+    # 计算特征点的
+
+    for i in range(1, M + 1, interval):
+        for j in range(1, N + 1, interval):
+            gx = (zxp[i - 1:i + wsize - 1][:, j - 1:j + wsize - 1]) * K
+            gy = (zyp[i - 1:i + wsize - 1][:, j - 1:j + wsize - 1]) * K
+            G = np.array([gx.flatten(1), gy.flatten(1)]).T
+            u, s, v = np.linalg.svd(G, full_matrices=False)
+            v = v.T
+            S1 = (s[0] + 1.0) / (s[1] + 1.0)
+            S2 = 1.0 / S1
+            m1 = (S1 * v[:, 0])
+            m2 = v[:, 0]
+            m3 = np.dot(np.array([m1]).T, np.array([m2]))
+            m4 = (S2 * v[:, 1])
+            m5 = v[:, 1]
+            m6 = np.dot(np.array([m4]).T, np.array([m5]))
+            m7 = ((s[0] * s[1] + 0.0000001) / le) ** alpha
+            tmp = (m3 + m6) * m7
+            C11[i - 1][j - 1] = tmp[0][0]
+            C12[i - 1][j - 1] = tmp[1][0]
+            C22[i - 1][j - 1] = tmp[1][1]
+
+    C11 = C11[0::interval][:, 0::interval]
+    C12 = C12[0::interval][:, 0::interval]
+    C22 = C22[0::interval][:, 0::interval]
+
+    M, N = C11.shape
+    C11 = np.lib.pad(C11, (win, win), mode='symmetric')
+    C12 = np.lib.pad(C12, (win, win), mode='symmetric')
+    C22 = np.lib.pad(C22, (win, win), mode='symmetric')
+
+    x2, x1 = np.meshgrid(range(-win, win + 1), range(-win, win + 1))
+    x12 = np.dot(2, x1) * x2
+    x11 = x1 ** 2
+    x22 = x2 ** 2
+    x1x1 = (np.tile(x11.reshape(1, wsize ** 2, order='F').copy(), (M * N, 1))).T.reshape((wsize, wsize, M, N))
+    x1x2 = (np.tile(x12.reshape(1, wsize ** 2, order='F').copy(), (M * N, 1))).T.reshape((wsize, wsize, M, N))
+    x2x2 = (np.tile(x22.reshape(1, wsize ** 2, order='F').copy(), (M * N, 1))).T.reshape((wsize, wsize, M, N))
+    LARK = np.zeros((wsize, wsize, M, N))
+    for i in range(0, wsize):
+        for j in range(0, wsize):
+            LARK[j][i] = C11[i:i + M][:, j:j + N] * x1x1[j][i] + C12[i:i + M][:, j:j + N] * x1x2[j][i] + C22[i:i + M][:,
+                                                                                                         j:j + N] * \
+    x2x2[j][i]
+    ds = LARK.copy()
+    LARK = np.exp(-(LARK) / h)
+    unlark = LARK.copy()
+    LARK = LARK.reshape((wsize ** 2, M, N), order='C').copy()
+    LARK = LARK / np.tile((np.sum(LARK.T, axis=2)).T, (wsize ** 2, 1, 1))
+    return ds,unlark,LARK
 
 def _make_visual_lark(larks, M, N, wsize_skr):
     win_skr = (wsize_skr - 1) // 2

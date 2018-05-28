@@ -15,7 +15,7 @@ params = {'text.usetex': False, 'mathtext.fontset': 'stixsans'}
 model_dir = 'model/experiment8'
 pic_dir = 'pic/experiment8'
 data_dir = 'data/experiment8'
-testpic = '1.jpg'
+testpic = '2.jpg'
 
 def show_this(lks, wsize_skr):
     _, M, N = lks.shape

@@ -99,6 +99,6 @@ if __name__ =='__main__':
         b = subplot.scatter(x1, y1,  c='red', s=5)
         subplot.legend([a, b], ['negative', 'positive'], prop=matplotlib.font_manager.FontProperties(size=10), loc='upper right')
         subplot.set_xlabel("%d. %s" % (i + 1, fun_name))
-    plt.suptitle("tsen Analyse")
+    plt.suptitle("tsne Analyse")
     plt.savefig(os.path.join(pic_dir,  "result.png"))
     plt.show()

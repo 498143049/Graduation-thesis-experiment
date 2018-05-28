@@ -21,7 +21,7 @@ params = {'text.usetex': False, 'mathtext.fontset': 'stixsans'}
 model_dir = 'model/experiment9'
 pic_dir = 'pic/experiment9'
 data_dir = 'data/experiment9'
-data_item = ["6.jpg","7.jpg"]
+data_item = ["a.jpg","2.jpg"]
 zoom_size = 15
 step_size = 1
 win_size = 11
@@ -49,7 +49,7 @@ def get_feature_bylark(gray,step_size,window_size=5):
 
 def extra_pack(fileName):
     img_object = cv2.imread(os.path.join(data_dir, fileName))
-    img_object = dbtool.resize(img_object, width=img_object.shape[1] / zoom_size);
+    img_object = dbtool.resize(img_object, width=img_object.shape[1] / zoom_size)
     gray_object = cv2.cvtColor(img_object, cv2.COLOR_BGR2GRAY)
     des_object = get_feature_bylark(gray_object, step_size, win_size)
     return img_object, gray_object, des_object
@@ -64,14 +64,13 @@ if __name__ =='__main__':
     for data_name, reducer in reduce.items():
         if data_name == "MY_LPP":
             reducer.SetW(dbtool.resturct_w(range_size,win_size,feature_list[0][2].unlark))
-            print(np.sum(np.sum(reducer.W_)))
         reducer.fit(feature_list[0][2].descriptors)
         feature_object = reducer.transform(feature_list[0][2].descriptors).reshape([feature_list[0][2].x, feature_list[0][2].y, max_components])
         feature_bg = reducer.transform(feature_list[1][2].descriptors).reshape([feature_list[1][2].x, feature_list[1][2].y, max_components])
         plt.figure(figsize=(6, 4))
         plt.rcParams.update(params)
         plt.subplots_adjust(right=0.96, left=0.06, bottom=0.14, top=0.95, wspace=0.2, hspace=0.3)
-        plt.imshow(feature_object[:,:,0], cmap='jet')
+        plt.imshow(feature_bg[:,:,0], cmap='jet')
         plt.colorbar()
         plt.title(data_name)
     plt.show()
